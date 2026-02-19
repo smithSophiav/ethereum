@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ethereum">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Ethereum">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".network.NetworkActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".account.GenerateAccountActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".account.ImportPrivateKeyActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".account.ImportMnemonicActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".account.ImportKeystoreActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".account.ExportKeystoreActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".sign.SignMessageActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".sign.VerifyMessageActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".balance.ETHBalanceActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".balance.ERC20BalanceActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".transfer.EthTransferActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".transfer.Erc20TransferActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+        <activity android:name=".gas.GasActivity" android:exported="false" android:theme="@style/Theme.Ethereum" />
+    </application>
+
+</manifest>
