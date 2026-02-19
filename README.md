@@ -47,7 +47,7 @@ In your **app** (or feature) module `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.smithsophiav.eth-new-js:etherweb:1.0.0")
+    implementation("com.github.smithSophiav:ethereum:1.0.0")
 }
 ```
 ---
