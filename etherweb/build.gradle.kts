@@ -7,7 +7,7 @@ version = "1.0.0"
 
 android {
     namespace = "com.smithsophiav.etherweb"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 24
