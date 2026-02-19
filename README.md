@@ -1,6 +1,8 @@
 # EtherWeb (Android)
 
-Android SDK for Ethereum wallet operations: create/import accounts, query balances, estimate gas, send ETH/ERC20, and sign/verify messages. 
+Android SDK for Ethereum wallet operations: create/import accounts, query balances, estimate gas, send ETH/ERC20, and sign/verify messages.
+![language](https://img.shields.io/badge/Language-Kotlin-green)
+![jitpack](https://img.shields.io/badge/support-jitpack-green)
 
 ---
 
