@@ -219,4 +219,4 @@ val isValid = etherWeb.verifyMessageSignatureAsync(
 
 ## License
 
-See the repository root or the [LICENSE](../../LICENSE) file.
+See the repository root or the [LICENSE](https://github.com/smithSophiav/ethereum/blob/main/LICENSE) file.
